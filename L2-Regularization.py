@@ -62,8 +62,6 @@ plt.title("For Test Dataset")
 plot_decision_boundary(lambda x: predict_dec(parameters, x.T), test_X, test_Y)
 
 
-######## L2 Solution ##################
-
 def cost_function_with_L2(A3, Y, parameters, lambd):
     m = Y.shape[1]
     W1 = parameters["W1"]
